@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>MemKeys</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <h1>MemKeys</h1>
+    <p>
+      <img src="https://cdn.glitch.global/5579eb7d-2b64-47b8-9054-82ab1f4eae11/Screen_Shot_2020-02-19_at_2.16.43_PM.jpg?v=1648862905274" alt="Vector" width="250" height="300">
+    </p>
+    <p>
+      Sit back and enjoy this simple game!
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      LET'S GO!
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      STOP.
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+    </div>
+  </body>
+</html>
