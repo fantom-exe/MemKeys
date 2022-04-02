@@ -39,8 +39,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
+[Winning a game]
+<img src='winning-a-game.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Losing a game]
+<img src='losing-a-game.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ![](gif3-link-here)
 ![](gif4-link-here)
 
